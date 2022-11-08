@@ -1,0 +1,18 @@
+.new-expense {
+    background-color: #d13e63;
+    width: 60%;
+    padding: 20px;
+    margin: 40px auto;
+}
+
+.new-expense--form-activation-button {
+    padding: 25px 50px;
+    font-size: 1.5em;
+    border-radius: 15px;
+    border: none;
+    background-color: #620119;
+    color: #ffffff;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}

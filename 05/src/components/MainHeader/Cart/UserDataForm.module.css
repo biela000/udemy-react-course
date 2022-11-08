@@ -1,0 +1,43 @@
+.user-data-form--inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.user-data-form--inputs > label {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.user-data-form--inputs > input {
+  width: 100%;
+  font-size: 1.1em;
+  border-radius: 10px;
+  border: 1px solid var(--color3);
+  outline: none;
+  padding: 5px;
+  text-align: center;
+}
+
+.submit {
+  background-color: var(--color2);
+  margin-top: 20px;
+  border: 2px solid var(--color2);
+  width: 150px;
+  height: 50px;
+  font-size: 1.4em;
+  cursor: pointer;
+}
+
+.submit:disabled {
+  border-color: #000000;
+  filter: opacity(0.3);
+  background-color: var(--color1);
+  cursor: unset;
+}
+
+.invalid {
+  border-color: var(--color2);
+  background-color: salmon;
+}
